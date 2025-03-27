@@ -63,7 +63,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "14404-125 Carlos de Campos, Franca - SP, Brazil ",
   phoneNo: "+55 16 98847-7530",
   email: "mrbonifaciobr@gmail.com",
 };
