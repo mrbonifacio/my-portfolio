@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have a degree in Systems Analysis and Development from FATEC Franca, with experience in SQL, NoSQL (MongoDB), TypeScript, JavaScript, React, Next.js, Node.js, Nest.js, Figma, Git, and TailwindCSS. Since childhood, I've been passionate about how computers work and how programming solves problems. This led me to a career in web development and Python (RPA) automation. I enjoy continuous learning, collaborating with teams, and solving complex problems to deliver high-quality solutions. Outside of coding, I stay active, explore new technologies, and contribute to open-source projects.`;
 
@@ -59,6 +60,13 @@ export const PROJECTS = [
     description:
       "It is a website where an internal system was developed to store confidential files, allowing users to edit, manage, share them, and set deadline alerts.",
     technologies: ["React", "TypeScript", "TailwindCSS", "PostgreSQL", "Node"],
+  },
+  {
+    title: "Flights",
+    image: project5,
+    description:
+      "It is an app where users can define a departure flight and view results based on filters and schedules, ensuring a tailored search experience.",
+    technologies: ["React", "TypeScript", "TailwindCSS", "SkyScrapperAPI"],
   },
 ];
 
